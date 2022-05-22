@@ -1,0 +1,65 @@
+{
+  "name": "boogiesearch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "sitemap": "vue-cli-service sitemap"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "@tailwindcss/postcss7-compat": "^2.1.4",
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^9.8.8",
+    "axios": "^0.27.2",
+    "core-js": "^3.6.5",
+    "i": "^0.3.7",
+    "placeholder-loading": "^0.5.0",
+    "postcss": "^7.0.39",
+    "register-service-worker": "^1.7.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "v-clipboard": "^2.2.3",
+    "vue": "^2.6.11",
+    "vue-country-code": "^1.1.2",
+    "vue-custom-range-slider": "^0.2.3",
+    "vue-router": "^3.5.1",
+    "vue-slider-component": "^4.0.0-beta.4",
+    "vue-tailwind": "^2.3.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "^4.5.13",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-sitemap": "~2.3.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
